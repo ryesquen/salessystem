@@ -1,0 +1,15 @@
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\bin\Debug\net6.0\SalesSystem.Persistence.deps.json
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\bin\Debug\net6.0\SalesSystem.Persistence.dll
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\bin\Debug\net6.0\SalesSystem.Persistence.pdb
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\SalesSystem.Persistence.csproj.AssemblyReference.cache
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\SalesSystem.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\SalesSystem.Persistence.AssemblyInfoInputs.cache
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\SalesSystem.Persistence.AssemblyInfo.cs
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\SalesSystem.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\SalesSystem.Persistence.dll
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\refint\SalesSystem.Persistence.dll
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\SalesSystem.Persistence.pdb
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\ref\SalesSystem.Persistence.dll
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\bin\Debug\net6.0\SalesSystem.Domain.dll
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\bin\Debug\net6.0\SalesSystem.Domain.pdb
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Persistence\obj\Debug\net6.0\SalesSystem.Persistence.csproj.CopyComplete

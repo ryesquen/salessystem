@@ -1,0 +1,12 @@
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\bin\Debug\net6.0\SalesSystem.Utility.deps.json
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\bin\Debug\net6.0\SalesSystem.Utility.dll
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\bin\Debug\net6.0\SalesSystem.Utility.pdb
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\SalesSystem.Utility.csproj.AssemblyReference.cache
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\SalesSystem.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\SalesSystem.Utility.AssemblyInfoInputs.cache
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\SalesSystem.Utility.AssemblyInfo.cs
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\SalesSystem.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\SalesSystem.Utility.dll
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\refint\SalesSystem.Utility.dll
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\SalesSystem.Utility.pdb
+C:\Users\Renzo\Desktop\Practicas\SistemaVentas\SalesSystem\SalesSystem.Utility\obj\Debug\net6.0\ref\SalesSystem.Utility.dll
