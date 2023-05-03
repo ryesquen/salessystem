@@ -4,6 +4,7 @@ using SalesSystem.Application.DTOs;
 using SalesSystem.Application.Interfaces;
 using SalesSystem.Domain.Entities;
 using SalesSystem.Persistence.Interfaces;
+using SalesSystem.Persistence.Encript;
 
 namespace SalesSystem.Application.Services
 {
@@ -29,7 +30,7 @@ namespace SalesSystem.Application.Services
         {
             try
             {
-                var usuarioQuery = _repository.Query(u => u.Correo == correo && u.Clave == clave);
+                var usuarioQuery = _repository.Query(u => u.Correo == correo && u.Clave == Cript.Encriptar(clave));
                 if (await usuarioQuery.FirstOrDefaultAsync() is null) throw new TaskCanceledException("El usuario no existe");
                 return _mapper.Map<SesionDto>(await usuarioQuery.Include(r => r.IdRolNavigation).FirstOrDefaultAsync());
             }
@@ -39,6 +40,7 @@ namespace SalesSystem.Application.Services
         {
             try
             {
+                usuarioDto.Clave = Cript.Encriptar(usuarioDto.Clave!);
                 var usuario = await _repository.Add(_mapper.Map<Usuario>(usuarioDto));
                 if (usuario.IdUsuario == 0) throw new TaskCanceledException("El usuario no se pudo crear");
                 return _mapper.Map<UsuarioDto>(usuario);
@@ -52,7 +54,7 @@ namespace SalesSystem.Application.Services
                 var usuario = await _repository.Get(u => u.IdUsuario == usuarioDto.IdUsuario) ?? throw new TaskCanceledException("El usuario no existe");
                 usuario.NombreCompleto = usuarioDto.NombreCompleto;
                 usuario.Correo = usuarioDto.Correo;
-                usuario.Clave = usuarioDto.Clave;
+                usuario.Clave = Cript.Encriptar(usuarioDto.Clave!);
                 usuario.EsActivo = usuarioDto.EsActivo == 1;
                 usuario.IdRol = usuarioDto.IdRol;
                 var result = await _repository.Edit(usuario);

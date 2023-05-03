@@ -10,6 +10,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.InjectionDependencies(builder.Configuration);
+builder.Services.AddCors(
+    options =>
+    {
+        options.AddPolicy("newPolicy", app =>
+        {
+            app.AllowAnyHeader()
+            .AllowAnyOrigin()
+            .AllowAnyMethod();
+        });
+    }
+);
 
 var app = builder.Build();
 
@@ -19,6 +30,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("newPolicy");
 
 app.UseAuthorization();
 

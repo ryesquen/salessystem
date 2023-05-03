@@ -22,7 +22,7 @@ namespace SalesSystem.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<List<MenuDto>> GetByUserId(int id)
+        public async Task<List<MenuDto>> GetAllByUserId(int id)
         {
             var queryUsuario = _usuarioRepository.Query(u => u.IdUsuario == id);
             var queryMenuRol = _menuRolRepository.Query();
