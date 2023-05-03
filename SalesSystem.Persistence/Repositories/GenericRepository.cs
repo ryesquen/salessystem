@@ -56,7 +56,7 @@ namespace SalesSystem.Persistence.Repositories
             try
             {
                 IQueryable<T> query = _entity;
-                if (query is not null) query = query.Where(filter!);
+                if (filter is not null) query = query.Where(filter!);
                 return query!;
             }
             catch { throw; }

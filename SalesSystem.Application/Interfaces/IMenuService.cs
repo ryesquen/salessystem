@@ -2,8 +2,8 @@
 
 namespace SalesSystem.Application.Interfaces
 {
-    public interface IRolService
+    public interface IMenuService
     {
-        Task<List<RolDto>> GetRoles();
+        Task<List<MenuDto>> GetByUserId(int id);
     }
 }

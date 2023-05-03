@@ -2,8 +2,8 @@
 
 namespace SalesSystem.Application.Interfaces
 {
-    public interface IRolService
+    public interface IDashBoardService
     {
-        Task<List<RolDto>> GetRoles();
+        DashBoardDto Resume();
     }
 }

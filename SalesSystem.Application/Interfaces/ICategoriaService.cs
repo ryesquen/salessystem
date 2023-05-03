@@ -2,8 +2,8 @@
 
 namespace SalesSystem.Application.Interfaces
 {
-    public interface IRolService
+    public interface ICategoriaService
     {
-        Task<List<RolDto>> GetRoles();
+        Task<List<CategoriaDto>> GetAll();
     }
 }
