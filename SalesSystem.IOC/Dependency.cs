@@ -2,6 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SalesSystem.Persistence.Contexts;
+using SalesSystem.Persistence.Interfaces;
+using SalesSystem.Persistence.Repositories;
+using SalesSystem.Utility;
 
 namespace SalesSystem.IOC
 {
@@ -14,6 +17,9 @@ namespace SalesSystem.IOC
                 {
                     options.UseSqlServer(configuration.GetConnectionString("cn"));
                 });
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped<IVentaRepository, VentaRepository>();
+            services.AddAutoMapper(typeof(AutoMapperProfile));
         }
     }
 }

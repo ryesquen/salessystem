@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DNwqh0uG9OQCGe9T0CIu0w7TKFhsNiIdxOFfgdI4IMLPoJGKrrONbpgQHzI3yGvanMsDKgZXPsA8Qdu5P63QkA==",
+  "dgSpecHash": "DhtZPXEy/jhFv0LDSLi9VllzJ/pYSWho1RtxTm2/K0T7kGp+nSTJBs53D+pqr/XaOB+8k7vAslIHvifFSKI8cg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Renzo\\Desktop\\Practicas\\SistemaVentas\\SalesSystem\\SalesSytem.Api\\SalesSytem.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Renzo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Renzo\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Renzo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Renzo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.16\\microsoft.entityframeworkcore.6.0.16.nupkg.sha512",

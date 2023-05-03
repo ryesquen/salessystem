@@ -181,6 +181,10 @@ namespace SalesSystem.Persistence.Contexts
                     .HasColumnType("datetime")
                     .HasDefaultValueSql("(getdate())");
 
+                entity.Property(e => e.NumeroDocumento)
+                    .HasMaxLength(40)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.TipoPago)
                     .HasMaxLength(50)
                     .IsUnicode(false);

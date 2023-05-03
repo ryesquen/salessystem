@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SalesSystem.Domain.Entities
+﻿namespace SalesSystem.Domain.Entities
 {
     public partial class Venta
     {
@@ -9,13 +6,11 @@ namespace SalesSystem.Domain.Entities
         {
             DetalleVenta = new HashSet<DetalleVenta>();
         }
-
         public int IdVenta { get; set; }
-        public int NumeroDocumento { get; set; }
+        public string? NumeroDocumento { get; set; }
         public string? TipoPago { get; set; }
         public decimal? Total { get; set; }
         public DateTime? FechaRegistro { get; set; }
-
         public virtual ICollection<DetalleVenta> DetalleVenta { get; set; }
     }
 }
